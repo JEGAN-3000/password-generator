@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.copyright{
+  text-align: center;
+}
+body{
+  background-color: teal;
+}
+.password_Generator{
+  max-width: 400px;
+  background-color: white;
+  margin: 50px auto;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.password_Generator h2{
+  margin-bottom: 20px;
+  text-align: center;
+  color: teal;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.input_Group,.checkBox_Group,.generated_Password{
+  margin-bottom: 15px;
+}
+.checkBox_Group{
+  display: flex;
+  align-items: center;
+}
+.checkBox_Group input{
+  margin-right: 5px;
+}
+.input_Group label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+input[type="number"]{
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px dotted teal;
+}
+.generate_btn{
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.generated_Password{
+  margin-top: 10px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+input[type="text"]{
+  flex: 1;
+  padding: 10px;
+  border: none;
+
+}
+.copy_btn{
+  border: none;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
